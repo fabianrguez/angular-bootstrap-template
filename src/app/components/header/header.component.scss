@@ -1,0 +1,15 @@
+@import '../../../styles';
+
+.jumbotron {
+  background-color: $primary_color;
+  color: #ffffff;
+  border-radius: 0;
+  padding: 160px 25px;
+}
+
+.form-inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

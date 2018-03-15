@@ -1,0 +1,32 @@
+@import '../../../styles';
+
+.navbar {
+  margin-bottom: 0;
+  background-color: $primary_color !important;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  padding: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: $primary_color !important;
+  background-color: #fff !important;
+  cursor: pointer;
+}
+
+.navbar-light .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.nav-link {
+  padding: 1.5em;
+}

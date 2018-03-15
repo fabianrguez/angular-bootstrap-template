@@ -1,0 +1,14 @@
+@import '../../../styles';
+
+.fa-chevron-up {
+  font-size: 2em;
+  color: $primary_color;
+}
+
+.fa-chevron-up:hover {
+  cursor: pointer;
+}
+
+.container-fluid {
+  padding: 20px 50px !important;
+}

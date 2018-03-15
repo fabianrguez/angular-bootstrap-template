@@ -1,0 +1,27 @@
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand">MyCompany</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" appActiveLink [linkId]="'about'">
+          <a class="nav-link" [ngx-scroll-to]="'about'">ABOUT</a>
+        </li>
+        <li class="nav-item" appActiveLink [linkId]="'services'">
+          <a class="nav-link" [ngx-scroll-to]="'services'">SERVICES</a>
+        </li>
+        <li class="nav-item" appActiveLink [linkId]="'portfolio'">
+          <a class="nav-link" [ngx-scroll-to]="'portfolio'">PORTFOLIO</a>
+        </li>
+        <li class="nav-item" appActiveLink [linkId]="'pricing'">
+          <a class="nav-link" [ngx-scroll-to]="'pricing'">PRICING</a>
+        </li>
+        <li class="nav-item" appActiveLink [linkId]="'contact'">
+          <a class="nav-link" [ngx-scroll-to]="'contact'">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

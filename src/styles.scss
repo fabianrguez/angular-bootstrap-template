@@ -1,0 +1,72 @@
+$primary_color: #991ce3;
+$secondary_color: #258992;
+
+h2, h4 {
+  margin-bottom: 3rem !important;
+}
+
+.container-fluid {
+  padding: 90px 50px !important;
+}
+
+.logo-big {
+  color: $secondary_color;
+  font-size: 200px !important;
+}
+
+.logo-small {
+  color: $secondary_color;
+  font-size: 50px !important;
+}
+
+.bg-grey {
+  background-color: #f6f6f6 !important;
+}
+
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+}
+
+.jumbotron {
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+  font-family: Montserrat, sans-serif;
+}
+
+.slideanim {
+  visibility:hidden;
+}
+
+.slide {
+
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
